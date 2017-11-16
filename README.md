@@ -63,3 +63,6 @@ git branch -a 便可以查看所有(本地+远程仓库)分支了
 删除远程分支git push origin --delete 分支名称
  
 删除远程分支git push origin :分支名称
+
+上传项目到github分支
+git subtree push --prefix=dist origin gh-pages
